@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { defaultMaxListeners } from 'events'
 
 type CounterState = {
     count: number
