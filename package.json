@@ -2,6 +2,7 @@
   "name": "react-simple-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://r05323028.github.io/react-simple-example",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.3",
