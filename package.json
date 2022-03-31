@@ -12,6 +12,8 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
+    "@types/redux-saga": "^0.10.5",
+    "axios": "^0.26.1",
     "daisyui": "^2.13.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -50,6 +52,7 @@
     "@typescript-eslint/parser": "^5.17.0",
     "eslint": "^8.12.0",
     "eslint-config-prettier": "^8.5.0",
+    "json-server": "^0.17.0",
     "prettier": "^2.6.1",
     "tailwindcss": "^3.0.23",
     "typescript": "^4.6.3"
