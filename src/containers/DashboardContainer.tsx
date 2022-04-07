@@ -12,6 +12,7 @@ const DashboardContainer = () => {
     const dispatch = useAppDispatch()
     const count = useAppSelector((state) => state.counter.count)
     const name = useAppSelector((state) => state.me.name)
+    const message = useAppSelector((state) => state.me.message)
     const loading = useAppSelector((state) => state.me.loading)
 
     const onIncrease = () => {
@@ -29,7 +30,7 @@ const DashboardContainer = () => {
 
     return (
         <Dashboard
-            name={name}
+            name={name ? name : message}
             loading={loading}
             count={count}
             onIncrease={onIncrease}
